@@ -1,0 +1,13 @@
+{
+  "appId": "com.corkword.app",
+  "appName": "Words by Cork",
+  "webDir": "www",
+  "backgroundColor": "#fbf3e8",
+  "ios": { "backgroundColor": "#fbf3e8", "contentInset": "never" },
+  "android": { "backgroundColor": "#fbf3e8" },
+  "plugins": {
+    "SplashScreen": { "launchShowDuration": 1000, "launchAutoHide": true, "backgroundColor": "#fbf3e8", "showSpinner": false, "androidScaleType": "CENTER_CROP" },
+    "StatusBar": { "style": "LIGHT", "backgroundColor": "#00000000", "overlaysWebView": true },
+    "LocalNotifications": { "iconColor": "#f44d18" }
+  }
+}
